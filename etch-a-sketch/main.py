@@ -21,8 +21,10 @@ def move_backward():
 
 
 def clear_screen():
-    screen.clearscreen()
+    muratcan.clear()
+    muratcan.penup()
     muratcan.home()
+    muratcan.pendown()
 
 
 screen.listen()
